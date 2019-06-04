@@ -98,4 +98,18 @@ main{
   letter-spacing: 0.5px;
   border-radius: 10px;
   cursor: pointer;
+
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75s ease;
+
+  transition: all 0.75s ease;
+}
+
+#main-nav ul li a:hover{
+  background-color: #5078CE;
+  border-radius: 2px;
+  color: #333;
+
 }
