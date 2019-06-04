@@ -21,5 +21,44 @@
   background-color: blue;
   color: white;
   text-transform: uppercase;
-  
+
+}
+
+/* these are the CSS3 button styles */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: 14px;
+  padding: 20px 0 0 20px
+}
+
+.button {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+
+  /* add a box shadow */
+  box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.button:active {
+  position: relative;
+  top: 2px;
+}
+
+.blue{
+  background: #1e5799;
+
+  background: -webkit-linear-gradient(#1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+
+  background: -o-linear-gradient(#1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+
+  background: linear-gradient(#1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+
 }
